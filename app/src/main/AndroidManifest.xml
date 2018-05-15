@@ -11,7 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme.NoActionBar">
-        <activity android:name=".Dashboard.DashBoard">
+        <activity android:name=".SplashActivity.SPLASHActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -21,7 +21,10 @@
         <activity android:name=".BookActivity.MainActivityBook" />
         <activity android:name=".BookActivity.BookActivity" />
         <activity android:name=".JurnalActivity.MainActivityJurnal" />
-        <activity android:name=".JurnalActivity.JurnalActivity"></activity>
+        <activity android:name=".JurnalActivity.JurnalActivity" />
+        <activity android:name=".LoginAndRegister.RegisterActivity" />
+        <activity android:name=".LoginAndRegister.LoginActivity" />
+        <activity android:name=".Dashboard.DashBoard"></activity>
     </application>
 
 </manifest>

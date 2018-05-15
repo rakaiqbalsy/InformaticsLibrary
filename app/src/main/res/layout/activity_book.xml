@@ -119,7 +119,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="16dp"
-        android:layout_marginTop="410dp">
+        android:layout_marginTop="475dp">
 
         <Button
             android:layout_width="match_parent"
@@ -129,8 +129,6 @@
             android:textColor="#fff"
             android:text="Download Buku"
             android:drawableLeft="@drawable/ic_file_download_black_24dp"/>
-
-
 
     </LinearLayout>
 
