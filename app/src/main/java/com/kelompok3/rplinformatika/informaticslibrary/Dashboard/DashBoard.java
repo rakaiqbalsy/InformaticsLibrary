@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.kelompok3.rplinformatika.informaticslibrary.BookActivity.BookActivity;
 import com.kelompok3.rplinformatika.informaticslibrary.BookActivity.MainActivityBook;
 import com.kelompok3.rplinformatika.informaticslibrary.JurnalActivity.MainActivityJurnal;
@@ -36,6 +37,11 @@ public class DashBoard extends AppCompatActivity {
             startActivity(i);
         }
 
+        FirebaseUser user = firebaseAuth.getCurrentUser();
+
+        textViewUser = findViewById(R.id.user);
+        textViewUser.setText(user.getEmail());
+
         cariBuku=findViewById(R.id.buttoncaribuku);
         cariBuku.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -58,6 +64,7 @@ public class DashBoard extends AppCompatActivity {
         Keluar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
+                firebaseAuth.signOut();
                 finish();
                 Intent i = new Intent(DashBoard.this, LoginActivity.class);
                 startActivity(i);

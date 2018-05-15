@@ -1,7 +1,7 @@
 package com.kelompok3.rplinformatika.informaticslibrary.Model;
 
 /**
- * Created by rakaiqbalsy on 5/15/18.
+ * Created by kelompok_3 on 5/15/18.
  */
 
 public class Jurnal {

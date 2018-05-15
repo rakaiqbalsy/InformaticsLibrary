@@ -1,7 +1,7 @@
 package com.kelompok3.rplinformatika.informaticslibrary.Model;
 
 /**
- * Created by rakaiqbalsy on 5/14/18.
+ * Created by kelompok3 on 5/14/18.
  */
 
 public class Book {
