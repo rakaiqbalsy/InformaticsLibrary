@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "795366280369",
+    "firebase_url": "https://informaticslibrary-552c2.firebaseio.com",
+    "project_id": "informaticslibrary-552c2",
+    "storage_bucket": "informaticslibrary-552c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:795366280369:android:2f81e2111a7cc5d4",
+        "android_client_info": {
+          "package_name": "com.kelompok3.rplinformatika.informaticslibrary"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "795366280369-c8j1e6gsp2ih8kicaeces9caae4dsq39.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kelompok3.rplinformatika.informaticslibrary",
+            "certificate_hash": "ff5c02c69ab3810391558be472fd4d952a3ce8e0"
+          }
+        },
+        {
+          "client_id": "795366280369-aqkqr70nef4f868kuuet14aehq231po8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA00hsLvjuB5Vt8A9h8dOFW4u7MAh9Fx2g"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "795366280369-aqkqr70nef4f868kuuet14aehq231po8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
